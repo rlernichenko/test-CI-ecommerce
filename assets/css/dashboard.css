@@ -1,0 +1,19 @@
+th.header {
+    background-image: url('../img/bg.gif');
+    cursor: pointer;
+    font-weight: bold;
+    background-repeat: no-repeat;
+    background-position: center right;
+}
+#categories_list th.headerSortUp {
+    background-image: url('../img/asc.gif');
+    background-color: #ebebeb;
+}
+th.headerSortDown {
+    background-image: url('../img/desc.gif');
+    background-color: #ebebeb;
+}
+
+.table > tbody > tr > td > img{
+    max-width: 60px;
+}
